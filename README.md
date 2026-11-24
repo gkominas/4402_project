@@ -1,6 +1,6 @@
-# Bayou Bolt Esports Database
+# Esports Database
 
-CSC 4402 group project, Fall 2026. A PostgreSQL database for a fictional esports organization that
+A PostgreSQL database for a fictional esports organization that
 fields teams in Valorant, League of Legends and Rocket League. All people, sponsors, opponents and
 results are made up.
 
