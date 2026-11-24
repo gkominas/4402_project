@@ -1,4 +1,7 @@
+/*
+
 !/.gitignore
+!/README.md
 !/generate_data.py
 !/schema.sql
 !/seed.sql
