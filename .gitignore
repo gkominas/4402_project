@@ -1,0 +1,6 @@
+!/.gitignore
+!/generate_data.py
+!/schema.sql
+!/seed.sql
+!/test_queries.sql
+!/requirements.txt
