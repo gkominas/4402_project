@@ -99,6 +99,24 @@ psql "$DATABASE_URL" -P pager=off -f test_queries.sql
 Queries 3 and 4 use today's date. The data is built so their rows stay the same from Nov 22, 2026 to
 Jan 10, 2027; only `days_left` in query 4 changes.
 
+## Run the User Interface
+Create the virtual environment:
+
+Windows: 
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
+mac or linux: 
+python3 -m venv .venv
+.venv/bin/python -m pip install --upgrade pip
+.venv/bin/python -m pip install -r requirements.txt
+
+From the project main folder (not the ui folder) start the main menu with:
+
+Windows: .\.venv\Scripts\python.exe ui\main.py
+mac or linux: .venv/bin/python ui/main.py
+
 ## Regenerate the data (optional)
 
 `seed.sql` is already included. To recreate it on Windows:
